@@ -14,6 +14,7 @@ Using the np.linalg.matrix_rank(), we can find the inverse of the given matrix
 ### Step 4: 
 End the program
 ## Program:
+```
 import numpy as np
 def find_matrix_inverse(matrix):
     try:
@@ -29,6 +30,7 @@ def find_matrix_inverse(matrix):
 matrix = [[2, 1, 1], [1, 1, 1], [1, -1, 2]]
 inverse = find_matrix_inverse(matrix)
 print(inverse)
+```
 ## output:
 ![Screenshot (1)](https://github.com/user-attachments/assets/3660eb6f-e105-41cb-aa05-1dd57d7c4eac)
 
